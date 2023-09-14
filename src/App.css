@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Kanit:wght@400;500;600&family=Plus+Jakarta+Sans&family=Poppins:wght@500;600;700&family=Red+Rose:wght@700&family=Roboto&family=Rubik:wght@600&display=swap');
+
+
+#root{
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    overflow: hidden;;
+    background: #c4fdc4;
+}
