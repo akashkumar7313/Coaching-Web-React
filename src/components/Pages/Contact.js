@@ -41,7 +41,7 @@ export default function Contact() {
                   </p>
                   <hr className=" mt-10 text-black" />
                   <div className="text-3xl font-bold mt-7">
-                    Convent Dehradun
+                  Covenant Dehradun
                   </div>
                   <ul className="md:ml-8 md:gap-0 lg:gap-14 sm:pt-4 sm:ml-2 text-[12px] sm:text-[14px] font-semibold justify-center md:pt-2 lg:pt-[18px] text-black drop-shadow-md">
                     <li className="flex items-center gap-2 sm:mt-2">

@@ -13,7 +13,7 @@ export default function Banner() {
                     <div className='text-4xl sm:text-5xl md:text-4xl lg:text-5xl md:mb-0 lg:mt-48 md:mx-6 sm:mx-0 mb-1 sm:mb-3 text-white drop-shadow-xl '>
                        Welcome to...
                     </div>
-                    <h2 className='text-white text-5xl sm:text-6xl md:text-[60px] lg:text-[90px] drop-shadow-md md:p-[24px]'>Convent Foreign</h2>
+                    <h2 className='text-white text-5xl sm:text-6xl md:text-[60px] lg:text-[90px] drop-shadow-md md:p-[24px]'>Covenant Foreign</h2>
                     <h2 className='text-white text-5xl sm:text-6xl md:text-[60px] lg:text-[90px] drop-shadow-md md:p-[24px]'> Languages</h2>
                     <div className='text-[45px] sm:text-[50px] md:text-[50px] md:p-[24px] text-white'>
                         Learn<Typed className='p-3  text-red-700'

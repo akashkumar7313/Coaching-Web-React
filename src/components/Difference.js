@@ -17,10 +17,10 @@ export class Difference extends Component {
         <div className="flex h-full items-center rounded-lg bg-primary p-6 text-center bg-blue-600 text-white lg:pl-12 lg:text-left">
           <div className="lg:pl-12">
             <h2 className="mb-6 text-3xl font-bold">
-            The Convent Foreign Languages
+            The Covenant Foreign Languages
             </h2>
             <p className="mb-6 pb-2 text-[18px] lg:pb-0">
-            At Convent we recognize that our students want more than to simply learn a language. They want to connect with people across the world, compete in a global marketplace, or simply navigate the local bazaar on their own. That’s why all of our classNamees are focused on teaching you to truly engage with the language in a way that will give you confidence to use it outside the classNameroom.
+            At Covenant we recognize that our students want more than to simply learn a language. They want to connect with people across the world, compete in a global marketplace, or simply navigate the local bazaar on their own. That’s why all of our classNamees are focused on teaching you to truly engage with the language in a way that will give you confidence to use it outside the classNameroom.
             </p>
             <h2 className="mb-6 text-3xl font-bold">
             Our Mission
