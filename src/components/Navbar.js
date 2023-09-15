@@ -1,54 +1,68 @@
 import { Fragment, useState } from "react";
 import React from "react";
-import logo from "../components/assests/poster.JPG";
+import logo from "../components/assests/llllllll.PNG";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import {
   Bars3Icon,
   XMarkIcon,
   ChevronDownIcon,
 } from "@heroicons/react/24/outline";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 const About = [
   { name: "Our Directors", href: "/" },
   { name: "Our Method", href: "/" },
   {
-    name: "Locations",
-    isLocations: true,
-    subItems: [
-      { name: "Lucknow", href: "/" },
-      { name: "Dehradun", href: "/" },
-    ],
+    name: "Location",
+    href: "/AboutUs/location",
+    component: Link,
+    className:
+      "text-sm font-semibold leading-6 hover:text-blue-500 text-gray-900",
+    content: "Location",
   },
-  { name: "Testimonials", href: "/" },
+  {
+    name: "Testimonials",
+    href: "/AboutUs/testimonials",
+    component: Link,
+    className:
+      "text-sm font-semibold leading-6 hover:text-blue-500 text-gray-900",
+    content: "Testimonials",
+  },
 ];
 
 const Cources = [
   {
-    name: "Hindi",
-    isLocations: true,
-    subItems: [
-      { name: "Beginner", href: "/" },
-      { name: "Pre-Intermediate", href: "/" },
-      { name: "Intermediate", href: "/" },
-      { name: "Upper-Intermediate", href: "/" },
-      { name: "Advanced", href: "/" },
-    ],
+    name: "CLTC Hindi Cource",
+    href: "/Cources/CLTC/hindi/Cource",
+    component: Link,
+    className:
+      "text-sm font-semibold leading-6 hover:text-blue-500 text-gray-900",
+    content: "CLTC Hindi Cource",
   },
   {
-    name: "English",
-    isLocations: true,
-    subItems: [
-      { name: "Spoken English", href: "/" },
-      { name: "Elementary", href: "/" },
-      { name: "Pre-Intermediate", href: "/" },
-      { name: "Intermediate", href: "/" },
-      { name: "Upper-Intermediate", href: "/" },
-      { name: "Advanced", href: "/" },
-    ],
+    name: "English Course",
+    href: "/Cources/English/Cource",
+    component: Link,
+    className:
+      "text-sm font-semibold leading-6 hover:text-blue-500 text-gray-900",
+    content: "English Cource",
   },
-  { name: "IELTS", href: "/" }, // Add isLocations property
-  { name: "Urdu", href: "/" },
+  {
+    name: "Urdu",
+    href: "/Cources/Urdu/Cource",
+    component: Link,
+    className:
+      "text-sm font-semibold leading-6 hover:text-blue-500 text-gray-900",
+    content: "Urdu Cource",
+  },
+  {
+    name: "IELTS",
+    href: "/Cources/IELTS",
+    component: Link,
+    className:
+      "text-sm font-semibold leading-6 hover:text-blue-500 text-gray-900",
+    content: "IELTS",
+  },
 ];
 
 const forOrganizations = [
@@ -82,9 +96,9 @@ export default function Navbar() {
 
   return (
     <div>
-      <header className="bg-white fixed top-[-0px] w-full z-20 ">
+      <header className="bg-white shadow-lg shadow-black fixed top-[-0px] w-full z-20 ">
         <nav
-          className="mx-auto h-[90px] flex max-w-[95rem] items-center justify-between p-6 lg:px-8"
+          className="mx-auto h-[90px] flex max-w-[90rem] items-center justify-between p-6 lg:px-8"
           aria-label="Global"
         >
           <div className="flex lg:flex-1">
@@ -134,31 +148,18 @@ export default function Navbar() {
                         className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-200"
                       >
                         <div className="flex-auto">
-                          <a
-                            href={item.href}
-                            className="block font-semibold"
-                            onClick={
-                              item.isLocations ? handleLocationClick : undefined
-                            } // Add click handler for Locations
-                          >
-                            <div className="flex items-center">
+                          {item.component ? (
+                            <item.component
+                              to={item.href}
+                              className={item.className}
+                            >
+                              {item.content}
+                            </item.component>
+                          ) : (
+                            <a href={item.href} className="block font-semibold">
                               {item.name}
-                              {item.isLocations && (
-                                <ChevronDownIcon className="h-5 w-5 mx-2 mt-1 text-gray-400" />
-                              )}
-                            </div>
-                            <span className="absolute inset-0" />
-                          </a>
-                          {showSubItems &&
-                            item.subItems && // Only show subitems if showSubItems is true
-                            item.subItems.map((subItem) => (
-                              <a
-                                href={subItem.href}
-                                className="block font-semibold text-gray-900 ml-8 mt-5"
-                              >
-                                {subItem.name}
-                              </a>
-                            ))}
+                            </a>
+                          )}
                         </div>
                       </div>
                     ))}
@@ -191,31 +192,18 @@ export default function Navbar() {
                         className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-200"
                       >
                         <div className="flex-auto">
-                          <a
-                            href={item.href}
-                            className="block font-semibold text-gray-900"
-                            onClick={
-                              item.isLocations ? handleLocationClick : undefined
-                            } // Add click handler for Locations
-                          >
-                            <div className="flex items-center cursor">
+                          {item.component ? (
+                            <item.component
+                              to={item.href}
+                              className={item.className}
+                            >
+                              {item.content}
+                            </item.component>
+                          ) : (
+                            <a href={item.href} className="block font-semibold">
                               {item.name}
-                              {item.isLocations && (
-                                <ChevronDownIcon className="h-5 w-5 mx-2 mt-1 text-gray-400" />
-                              )}
-                            </div>
-                            <span className="absolute inset-0" />
-                          </a>
-                          {showSubItems &&
-                            item.subItems && // Only show subitems if showSubItems is true
-                            item.subItems.map((subItem) => (
-                              <a
-                                href={subItem.href}
-                                className="block font-semibold text-gray-900 ml-8 mt-5"
-                              >
-                                {subItem.name}
-                              </a>
-                            ))}
+                            </a>
+                          )}
                         </div>
                       </div>
                     ))}
@@ -374,7 +362,7 @@ export default function Navbar() {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
-              <NavLink
+                <NavLink
                   to="/Contact"
                   className="text-[16px] font-semibold leading-10  hover:text-blue-500 text-gray-900 hover:bg-gray-50"
                 >
@@ -396,25 +384,14 @@ export default function Navbar() {
                       <Disclosure.Panel className="mt-2 space-y-2">
                         {[...About].map((item) => (
                           <>
-                            <Disclosure.Button
+                            <NavLink
                               key={item.name}
-                              as="a"
-                              href={item.href}
+                              to={item.href}
                               className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                              activeClassName="active"
                             >
                               {item.name}
-                            </Disclosure.Button>
-                            {item.isLocations &&
-                              item.subItems.map((subItem) => (
-                                <Disclosure.Button
-                                  key={subItem.name}
-                                  as="a"
-                                  href={subItem.href}
-                                  className="block rounded-lg py-2 mx-6 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                                >
-                                  {subItem.name}
-                                </Disclosure.Button>
-                              ))}
+                            </NavLink>
                           </>
                         ))}
                       </Disclosure.Panel>
@@ -436,14 +413,14 @@ export default function Navbar() {
                       </Disclosure.Button>
                       <Disclosure.Panel className="mt-2 space-y-2">
                         {[...Cources].map((item) => (
-                          <Disclosure.Button
+                          <NavLink
                             key={item.name}
-                            as="a"
-                            href={item.href}
+                            to={item.href}
                             className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                            activeClassName="active"
                           >
                             {item.name}
-                          </Disclosure.Button>
+                          </NavLink>
                         ))}
                       </Disclosure.Panel>
                     </>
@@ -464,14 +441,14 @@ export default function Navbar() {
                       </Disclosure.Button>
                       <Disclosure.Panel className="mt-2 space-y-2">
                         {[...forOrganizations].map((item) => (
-                          <Disclosure.Button
+                          <NavLink
                             key={item.name}
-                            as="a"
-                            href={item.href}
+                            to={item.href}
                             className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                            activeClassName="active"
                           >
                             {item.name}
-                          </Disclosure.Button>
+                          </NavLink>
                         ))}
                       </Disclosure.Panel>
                     </>
@@ -492,14 +469,14 @@ export default function Navbar() {
                       </Disclosure.Button>
                       <Disclosure.Panel className="mt-2 space-y-2">
                         {[...InternationalStudent].map((item) => (
-                          <Disclosure.Button
+                          <NavLink
                             key={item.name}
-                            as="a"
-                            href={item.href}
+                            to={item.href}
                             className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                            activeClassName="active"
                           >
                             {item.name}
-                          </Disclosure.Button>
+                          </NavLink>
                         ))}
                       </Disclosure.Panel>
                     </>
@@ -520,14 +497,14 @@ export default function Navbar() {
                       </Disclosure.Button>
                       <Disclosure.Panel className="mt-2 space-y-2">
                         {[...PlacementTests].map((item) => (
-                          <Disclosure.Button
+                          <NavLink
                             key={item.name}
-                            as="a"
-                            href={item.href}
+                            to={item.href}
                             className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                            activeClassName="active"
                           >
                             {item.name}
-                          </Disclosure.Button>
+                          </NavLink>
                         ))}
                       </Disclosure.Panel>
                     </>
