@@ -90,10 +90,9 @@ const InternationalStudent = [
 ];
 
 const PlacementTests = [
+  { name: "Hindi", href: "/" },
   { name: "English", href: "/" },
-  { name: "Spanish", href: "/" },
-  { name: "Locations", href: "/", isLocations: true }, // Add isLocations property
-  { name: "Testimonials", href: "/" },
+  { name: "Urdu", href: "/" },
 ];
 
 function classNames(...classes) {
@@ -154,7 +153,7 @@ export default function Navbar() {
                 leaveFrom="opacity-100 translate-y-0"
                 leaveTo="opacity-0 translate-y-1"
               >
-                <Popover.Panel className="absolute cursor-pointer -left-8 top-full z-10 mt-3 w-screen max-w-[180px] overflow-hidden rounded-2xl bg-white shadow-lg ring-1 ring-gray-900/5">
+                <Popover.Panel className="absolute cursor-pointer -left-8 top-full z-10 mt-3 w-screen max-w-[200px] overflow-hidden rounded-2xl bg-white shadow-lg ring-1 ring-gray-900/5">
                   <div className="p-4">
                     {About.map((item) => (
                       <div
