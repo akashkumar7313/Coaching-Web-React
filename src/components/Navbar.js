@@ -10,8 +10,22 @@ import {
 import { NavLink, Link } from "react-router-dom";
 
 const About = [
-  { name: "Our Directors", href: "/" },
-  { name: "Our Method", href: "/" },
+  {
+    name: "Our Directors",
+    href: "/AboutUs/OurDirectors",
+    component: Link,
+    className:
+      "text-sm font-semibold leading-6 hover:text-blue-500 text-gray-900",
+    content: "Our Directors",
+  },
+  {
+    name: "Our Method",
+    href: "/AboutUs/OurMethod",
+    component: Link,
+    className:
+      "text-sm font-semibold leading-6 hover:text-blue-500 text-gray-900",
+    content: "Our Method",
+  },
   {
     name: "Location",
     href: "/AboutUs/location",
@@ -125,7 +139,7 @@ export default function Navbar() {
             </NavLink>
             <Popover className="relative">
               <Popover.Button
-                className="flex items-center gap-x-1 text-sm font-semibold hover:text-blue-500 leading-6 text-gray-900"
+                className="flex items-center gap-x-1 text-sm font-semibold  hover:text-blue-500 leading-6 text-gray-900"
                 onClick={handleLocationClick} // Replace handleLocationsClick with handleLocationClick
               >
                 ABOUT US
@@ -233,7 +247,7 @@ export default function Navbar() {
                     {forOrganizations.map((item) => (
                       <div
                         key={item.name}
-                        className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
+                        className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-200"
                       >
                         <div className="flex-auto">
                           <a
@@ -272,7 +286,7 @@ export default function Navbar() {
                     {InternationalStudent.map((item) => (
                       <div
                         key={item.name}
-                        className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
+                        className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-200"
                       >
                         <div className="flex-auto">
                           <a
@@ -311,7 +325,7 @@ export default function Navbar() {
                     {PlacementTests.map((item) => (
                       <div
                         key={item.name}
-                        className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
+                        className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-200"
                       >
                         <div className="flex-auto">
                           <a

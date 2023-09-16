@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 import Navbar from "../../Navbar";
 import Footer from "../../Footer";
 
-export default function Contact() {
+export default function Location() {
   return (
     <div className="bg-green-200 ">
       <Navbar />
@@ -23,7 +23,7 @@ export default function Contact() {
             </NavLink>
             <NavLink
               to="/AboutUs/location"
-              className="text-[16px] font-semibold leading-10  text-gray-900 hover:text-blue-500"
+              className="text-[16px] font-semibold leading-10  text-blue-500"
             >
               LOCATION
             </NavLink>

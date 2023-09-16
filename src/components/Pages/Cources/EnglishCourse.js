@@ -19,7 +19,7 @@ export default function EngishCource() {
             </NavLink>
             <NavLink
               to="/Cources/English/Cource"
-              className="text-[16px] font-semibold leading-10  text-gray-900 hover:text-blue-500"
+              className="text-[16px] font-semibold leading-10  text-blue-500"
             >
               ENGLISH COURSE
             </NavLink>

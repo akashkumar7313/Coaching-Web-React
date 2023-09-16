@@ -15,6 +15,8 @@ import HindiCource from './components/Pages/Cources/HindiCource';
 import EnglishCourse from './components/Pages/Cources/EnglishCourse';
 import UrduCource from './components/Pages/Cources/UrduCourse';
 import IELTS from './components/Pages/Cources/IELTS';
+import OurMethod from './components/Pages/AboutUs/OurMethod';
+import OurDirectors from './components/Pages/AboutUs/OurDirectors';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/contact" element={<Contact />} />
+        <Route path="/AboutUs/OurDirectors" element={<OurDirectors />} />
+        <Route path="/AboutUs/OurMethod" element={<OurMethod />} />
         <Route path="/AboutUs/location" element={<Location />} />
         <Route path="/AboutUs/testimonials" element={<Testimonials />} />
         <Route path="/Cources/CLTC/hindi/Cource" element={<HindiCource />} />
