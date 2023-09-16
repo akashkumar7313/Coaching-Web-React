@@ -1,10 +1,10 @@
 import React from "react";
-import image1 from './assests/1 (1).png'
-import image2 from './assests/1 (2).png'
-import image3 from './assests/1 (3).png'
-import image4 from './assests/1 (4).png'
-import image5 from './assests/1 (5).png'
-import image6 from './assests/1 (6).png'
+import image1 from './assets/1 (1).png'
+import image2 from './assets/1 (2).png'
+import image3 from './assets/1 (3).png'
+import image4 from './assets/1 (4).png'
+import image5 from './assets/1 (5).png'
+import image6 from './assets/1 (6).png'
 
 export default function Certifications() {
   return (

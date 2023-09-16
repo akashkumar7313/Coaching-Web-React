@@ -1,7 +1,7 @@
 import React from 'react';
-import image1 from './assests/settings-icon-28.png';
-import image2 from './assests/World-Wide-Web-Address-PNG.png';
-import image3 from './assests/224641.png';
+import image1 from './assets/settings-icon-28.png';
+import image2 from './assets/World-Wide-Web-Address-PNG.png';
+import image3 from './assets/224641.png';
 
 
 const Elementary = () => {

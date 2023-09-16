@@ -1,6 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
-import image from "../components/assests/655623.jpg";
+import image from "../components/assets/655623.jpg";
 import { NavLink } from "react-router-dom";
 
 export default function Banner() {

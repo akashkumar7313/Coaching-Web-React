@@ -3,7 +3,7 @@ import { Breadcrumbs } from "@material-tailwind/react";
 import { NavLink } from "react-router-dom";
 import Navbar from "../../Navbar";
 import Footer from "../../Footer";
-import admin from '../../assests/admin.jpg'
+import admin from '../../assets/admin.jpg'
 
 export default function OurMethod() {
   return (

@@ -1,6 +1,6 @@
 import { Fragment, useState } from "react";
 import React from "react";
-import logo from "../components/assests/llllllll.PNG";
+import logo from "../components/assets/llllllll.PNG";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import {
   Bars3Icon,
