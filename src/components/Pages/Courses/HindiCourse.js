@@ -43,278 +43,86 @@ export default function HindiCourse() {
                     First year- Elementary course- 1 to 12units
                   </div>
                   <div className="text-2xl mt-4 flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mr-3 h-4 w-4"
-                    >
-                      <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-                    </svg>{" "}
-                    Hindi Vowels, Hindi Consonants, Noun (Sangya), Pronoun,
+                    1. Hindi Vowels, Hindi Consonants, Noun (Sangya), Pronoun,
                     (Survnam).
                   </div>
                   <div className="text-2xl mt-4 flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mr-3 h-4 w-4"
-                    >
-                      <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-                    </svg>{" "}
-                    Conversation: Identify Animals, Role play, Ordinal Number
+                    2. Conversation: Identify Animals, Role play, Ordinal Number
                     quiz. and number names, body parts,
                   </div>
                   <div className="text-2xl mt-4 flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mr-3 h-4 w-4"
-                    >
-                      <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-                    </svg>{" "}
-                    Weeks, season, month, in Hindi
+                    3. Weeks, season, month, in Hindi
                   </div>
                   <div className="text-2xl mt-4 flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mr-3 h-4 w-4"
-                    >
-                      <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-                    </svg>{" "}
-                    Festival of India, cultural information
+                    4. Festival of India, cultural information
                   </div>
                   <div className="text-2xl mt-4 flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mr-3 h-4 w-4"
-                    >
-                      <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-                    </svg>{" "}
-                    Writing: alphabet dictation. Make sentences (elementary)
+                    5. Writing: alphabet dictation. Make sentences (elementary)
                   </div>
                   <div className="text-2xl mt-4 flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mr-3 h-4 w-4"
-                    >
-                      <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-                    </svg>{" "}
-                    Audio conversation
+                    6. Audio conversation
                   </div>
                   <hr className=" mt-10 text-black" />
                   <div className="text-2xl font-bold mt-7">
                     Second Year- Intermediate course- 1 to 12 Units
                   </div>
                   <div className="text-2xl mt-4 flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mr-3 h-4 w-4"
-                    >
-                      <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-                    </svg>{" "}
-                    Hindi Grammar-put the right verbs, helping verbs,
+                    1. Hindi Grammar-put the right verbs, helping verbs,
                   </div>
                   <div className="text-2xl mt-4 flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mr-3 h-4 w-4"
-                    >
-                      <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-                    </svg>{" "}
-                    Distance and measurement
+                    2. Distance and measurement
                   </div>
                   <div className="text-2xl mt-4 flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mr-3 h-4 w-4"
-                    >
-                      <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-                    </svg>{" "}
-                    Find out the service provider name and services.
+                    3. Find out the service provider name and services.
                   </div>
                   <div className="text-2xl mt-4 flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mr-3 h-4 w-4"
-                    >
-                      <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-                    </svg>{" "}
-                    Reading Comprehension
+                    4. Reading Comprehension
                   </div>
                   <div className="text-2xl mt-4 flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mr-3 h-4 w-4"
-                    >
-                      <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-                    </svg>{" "}
-                    Writing: Essay, Letter
+                    5. Writing: Essay, Letter
                   </div>
                   <div className="text-2xl mt-4 flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mr-3 h-4 w-4"
-                    >
-                      <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-                    </svg>{" "}
-                    Formal introduction in Hindi.
+                    6. Formal introduction in Hindi.
                   </div>
                   <div className="text-2xl mt-4 flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mr-3 h-4 w-4"
-                    >
-                      <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-                    </svg>{" "}
-                    Speaking with native speaker.
+                    7. Speaking with native speaker.
                   </div>
                   <div className="text-2xl mt-4 flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mr-3 h-4 w-4"
-                    >
-                      <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-                    </svg>{" "}
-                    Role play.
+                    8. Role play.
                   </div>
                   <div className="text-2xl mt-4 flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mr-3 h-4 w-4"
-                    >
-                      <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-                    </svg>{" "}
-                    Audio conversation for practice.
+                    9. Audio conversation for practice.
                   </div>
                   <hr className=" mt-10 text-black" />
                   <div className="text-2xl font-bold mt-7">
                     Third Year-Advance course
                   </div>
                   <div className="text-2xl mt-4 flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mr-3 h-4 w-4"
-                    >
-                      <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-                    </svg>{" "}
-                    Express ideas: long and short question, paraphrasing, <br/> Debate practice, business and job meeting.
+                    1. Express ideas: long and short question, paraphrasing, Debate practice, business and job meeting.
                   </div>
                   <div className="text-2xl mt-4 flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mr-3 h-4 w-4"
-                    >
-                      <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-                    </svg>{" "}
-                    Interview skills
+                    2. Interview skills
                   </div>
                   <div className="text-2xl mt-4 flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mr-3 h-4 w-4"
-                    >
-                      <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-                    </svg>{" "}
-                    Conference conversation practice classes.
+                    3. Conference conversation practice classes.
                   </div>
                   <div className="text-2xl mt-4 flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mr-3 h-4 w-4"
-                    >
-                      <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-                    </svg>{" "}
-                    Story writing
+                    4. Story writing
                   </div>
                   <div className="text-2xl mt-4 flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mr-3 h-4 w-4"
-                    >
-                      <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-                    </svg>{" "}
-                    Audio and video.
+                    5. Audio and video.
                   </div>
                   <div className="text-2xl mt-4 flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mr-3 h-4 w-4"
-                    >
-                      <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-                    </svg>{" "}
-                    Book reading.
+                    6. Book reading.
                   </div>
                   <div className="text-2xl mt-4 flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mr-3 h-4 w-4"
-                    >
-                      <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-                    </svg>{" "}
-                    Article writing
+                    7. Article writing
                   </div>
                   <div className="text-2xl mt-4 flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mr-3 h-4 w-4"
-                    >
-                      <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-                    </svg>{" "}
-                    Outdoor task
+                    8. Outdoor task
                   </div>
                   <div className="text-2xl mt-4 flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="mr-3 h-4 w-4"
-                    >
-                      <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-                    </svg>{" "}
-                    GROWTH PARTICPATE ACTIVITY (GPA)
+                    9. GROWTH PARTICPATE ACTIVITY (GPA)
                   </div>
                 </div>
               </div>

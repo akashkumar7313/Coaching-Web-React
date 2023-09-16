@@ -111,13 +111,13 @@ export default function Navbar() {
     <div>
       <header className="bg-white shadow-lg shadow-black fixed top-[-0px] w-full z-20 ">
         <nav
-          className="mx-auto h-[90px] flex max-w-[90rem] items-center justify-between p-6 lg:px-8"
+          className="mx-auto h-[70px] flex max-w-[90rem] items-center justify-between p-6 lg:px-8"
           aria-label="Global"
         >
           <div className="flex lg:flex-1">
-            <a href="/" className="">
+            <NavLink to="/" className="">
               <img className="h-20" src={logo} alt="" />
-            </a>
+            </NavLink>
           </div>
           <div className="flex lg:hidden">
             <button
