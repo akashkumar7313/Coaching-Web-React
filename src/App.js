@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Banner from "./components/Banner";
 import Navbar from "./components/Navbar";
-import Elementor from "./components/Elementor";
+import Elementary from "./components/Elementary";
 import Student from "./components/Student";
 import Offer from "./components/Offer";
 import Difference from "./components/Difference";
@@ -11,10 +11,10 @@ import Contact from "./components/Pages/ContactUs/Contact";
 import Location from "./components/Pages/AboutUs/Location";
 import Testimonials from './components/Pages/AboutUs/Testimonials';
 import Testimonial from './components/Testimonial';
-import HindiCource from './components/Pages/Cources/HindiCource';
-import EnglishCourse from './components/Pages/Cources/EnglishCourse';
-import UrduCource from './components/Pages/Cources/UrduCourse';
-import IELTS from './components/Pages/Cources/IELTS';
+import HindiCourse from './components/Pages/Courses/HindiCourse';
+import EnglishCourse from './components/Pages/Courses/EnglishCourse';
+import UrduCourse from './components/Pages/Courses/UrduCourse';
+import IELTS from './components/Pages/Courses/IELTS';
 import OurMethod from './components/Pages/AboutUs/OurMethod';
 import OurDirectors from './components/Pages/AboutUs/OurDirectors';
 
@@ -28,14 +28,14 @@ function App() {
         <Route path="/AboutUs/OurMethod" element={<OurMethod />} />
         <Route path="/AboutUs/location" element={<Location />} />
         <Route path="/AboutUs/testimonials" element={<Testimonials />} />
-        <Route path="/Cources/CLTC/hindi/Cource" element={<HindiCource />} />
-        <Route path="/Cources/English/Cource" element={<EnglishCourse />} />
-        <Route path="/Cources/Urdu/Cource" element={<UrduCource />} />
-        <Route path="/Cources/IELTS" element={<IELTS />} />
+        <Route path="/Courses/CLTC/hindi/Course" element={<HindiCourse />} />
+        <Route path="/Courses/English/Course" element={<EnglishCourse />} />
+        <Route path="/Courses/Urdu/Course" element={<UrduCourse />} />
+        <Route path="/Courses/IELTS" element={<IELTS />} />
         <Route path="/" element={<Layout />}>
           <Route index element={<Banner />} />
           <Route path="testimonial" element={<Testimonial />} />
-          <Route path="elementor" element={<Elementor />} />
+          <Route path="elementary" element={<Elementary />} />
           <Route path="student" element={<Student />} />
           <Route path="offer" element={<Offer />} />
           <Route path="difference" element={<Difference />} />
@@ -52,7 +52,7 @@ function Layout() {
     <>
       <Banner />
       <Testimonial/>
-      <Elementor />
+      <Elementary />
       <Student />
       <Offer />
       <Difference />

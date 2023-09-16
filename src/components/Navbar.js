@@ -44,34 +44,34 @@ const About = [
   },
 ];
 
-const Cources = [
+const Courses = [
   {
-    name: "CLTC Hindi Cource",
-    href: "/Cources/CLTC/hindi/Cource",
+    name: "CLTC Hindi Course",
+    href: "/Courses/CLTC/hindi/Course",
     component: Link,
     className:
       "text-sm font-semibold leading-6 hover:text-blue-500 text-gray-900",
-    content: "CLTC Hindi Cource",
+    content: "CLTC Hindi Course",
   },
   {
     name: "English Course",
-    href: "/Cources/English/Cource",
+    href: "/Courses/English/Course",
     component: Link,
     className:
       "text-sm font-semibold leading-6 hover:text-blue-500 text-gray-900",
-    content: "English Cource",
+    content: "English Course",
   },
   {
     name: "Urdu",
-    href: "/Cources/Urdu/Cource",
+    href: "/Courses/Urdu/Course",
     component: Link,
     className:
       "text-sm font-semibold leading-6 hover:text-blue-500 text-gray-900",
-    content: "Urdu Cource",
+    content: "Urdu Courses",
   },
   {
     name: "IELTS",
-    href: "/Cources/IELTS",
+    href: "/Courses/IELTS",
     component: Link,
     className:
       "text-sm font-semibold leading-6 hover:text-blue-500 text-gray-900",
@@ -185,7 +185,7 @@ export default function Navbar() {
                 className="flex items-center gap-x-1 text-sm font-semibold  hover:text-blue-500 leading-6 text-gray-900"
                 onClick={handleLocationClick} // Replace handleLocationsClick with handleLocationClick
               >
-                COURCES
+                COURSES
               </Popover.Button>
 
               <Transition
@@ -199,7 +199,7 @@ export default function Navbar() {
               >
                 <Popover.Panel className="absolute cursor-pointer -left-8 top-full z-10 mt-3 w-screen max-w-[230px] overflow-hidden rounded-2xl bg-white shadow-lg ring-1 ring-gray-900/5">
                   <div className="p-4">
-                    {Cources.map((item) => (
+                    {Courses.map((item) => (
                       <div
                         key={item.name}
                         className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-200"
@@ -415,7 +415,7 @@ export default function Navbar() {
                   {({ open }) => (
                     <>
                       <Disclosure.Button className="flex w-full  hover:text-blue-500 items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                        COURCES
+                        COURSES
                         <ChevronDownIcon
                           className={classNames(
                             open ? "rotate-180" : "",
@@ -425,7 +425,7 @@ export default function Navbar() {
                         />
                       </Disclosure.Button>
                       <Disclosure.Panel className="mt-2 space-y-2">
-                        {[...Cources].map((item) => (
+                        {[...Courses].map((item) => (
                           <NavLink
                             key={item.name}
                             to={item.href}
