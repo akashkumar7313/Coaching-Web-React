@@ -1,13 +1,11 @@
 import React from "react";
 import { Breadcrumbs } from "@material-tailwind/react";
 import { NavLink } from "react-router-dom";
-import Navbar from "../../Navbar";
 import Footer from "../../Footer";
 
 export default function Testimonials() {
   return (
     <div className="bg-green-200 ">
-      <Navbar />
       <div className="container mb-24 pt-28 mx-auto md:px-6">
         <section className="">
           <Breadcrumbs className="flex justify-end px-20">

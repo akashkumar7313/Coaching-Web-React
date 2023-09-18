@@ -111,7 +111,7 @@ export default function Navbar() {
     <div>
       <header className="bg-white shadow-lg shadow-black fixed top-[-0px] w-full z-20 ">
         <nav
-          className="mx-auto h-[70px] flex max-w-[90rem] items-center justify-between p-6 lg:px-8"
+          className="mx-auto h-[80px] flex max-w-[90rem] items-center justify-between p-6 lg:px-8"
           aria-label="Global"
         >
           <div className="flex lg:flex-1">
