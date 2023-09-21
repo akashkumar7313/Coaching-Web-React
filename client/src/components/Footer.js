@@ -119,7 +119,7 @@ export default function Footer() {
                 </h6>
                 <p className="mb-4">
                   <NavLink
-                    to = "/Cources/CLTC/hindi/Cource"
+                    to = "/Courses/CLTC/hindi/Course"
                     className="text-neutral-600 dark:text-neutral-200"
                   >
                     Hindi
@@ -127,7 +127,7 @@ export default function Footer() {
                 </p>
                 <p className="mb-4">
                   <NavLink
-                    to ="/Cources/English/Cource"
+                    to ="/Courses/English/Course"
                     className="text-neutral-600 dark:text-neutral-200"
                   >
                     Engish
@@ -135,7 +135,7 @@ export default function Footer() {
                 </p>
                 <p className="mb-4">
                   <NavLink
-                    to ="/Cources/Urdu/Cource"
+                    to ="/Courses/Urdu/Course"
                     className="text-neutral-600 dark:text-neutral-200"
                   >
                     Urdu

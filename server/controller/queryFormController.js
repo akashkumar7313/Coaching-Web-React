@@ -1,4 +1,4 @@
-const QueryForm = require("../models/queryForm");
+const QueryForm = require("../model/queryForm");
 
 // Create queryForm
 exports.createQueryForm = async (req, res) => {
@@ -24,7 +24,7 @@ exports.createQueryForm = async (req, res) => {
         success: false,
         message: "Email already exists",
       });
-    }
+    }   
 
     // Check if queryForm with the same mobileNo already exists
     const existingformMobile = await QueryForm.findOne({ mobileNo: mobileNo });

@@ -4,7 +4,7 @@ const express = require("express")
 const router = express.Router();
 
 
-const {createQueryForm, getQueryForm, updateQueryFormById, deleteQueryForm } = require ('../controllers/queryFormControllers');
+const {createQueryForm, getQueryForm, updateQueryFormById, deleteQueryForm } = require ('../controller/queryFormController');
 
 
 

@@ -3,10 +3,12 @@ import { Breadcrumbs } from "@material-tailwind/react";
 import { NavLink } from "react-router-dom";
 import Footer from "../../Footer";
 import admin from '../../assets/admin.jpg'
+import Navbar from "../../Navbar";
 
 export default function OurMethod() {
   return (
     <div className="bg-green-200 ">
+    <Navbar/>
       <div className="container mb-24 pt-28 mx-auto md:px-6">
         <section className="">
           <Breadcrumbs className="flex justify-end px-20    ">

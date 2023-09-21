@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-// store schema information
+// queryform schema information
 const queryFormSchema = new mongoose.Schema({
     name: {
         type: String,
@@ -28,7 +28,3 @@ const queryFormSchema = new mongoose.Schema({
 const QueryForm =  mongoose.model("QueryForm", queryFormSchema)
 
 module.exports = QueryForm;
-
-
-
-

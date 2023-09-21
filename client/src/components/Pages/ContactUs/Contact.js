@@ -8,6 +8,7 @@ import { NavLink } from "react-router-dom";
 import Footer from "../../Footer";
 import { useState } from "react";
 import axios from "axios";
+import Navbar from "../../Navbar";
 
 export default function Contact() {
   const [name, setName] = useState();
@@ -29,7 +30,7 @@ export default function Contact() {
     const data = { name, email, mobileNo, courseToApply };
 
     axios
-      .post("http://localhost:4001/create/new/QueryForm", data)
+      .post("http://localhost:8081/create/new/QueryForm", data)
       .then((result) => {
         alert("Form submitted successfully!");
         setName("");
@@ -46,6 +47,7 @@ export default function Contact() {
 
   return (
     <div className="bg-green-200 ">
+    <Navbar/>
       <div className="container mb-24 pt-28 mx-auto md:px-6">
         <section className="">
           <Breadcrumbs className="flex justify-end px-20">
